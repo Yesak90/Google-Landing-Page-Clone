@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bowlby+One&family=Cinzel&family=Hubballi&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+/* ----- MAIN Styles ----- */
+
+.main {
+  width: 450px;
+  border: 1px solid #ccc;
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  padding: 40px;
+  margin-bottom: 25px;
+}
+
+.main__logo {
+  height: 50px;
+  width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main__title {
+  color: #202141;
+  padding-bottom: 0;
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main__account {
+  padding: 12px 10px;
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.main__account:hover {
+  background-color: #e8f0fe;
+  cursor: pointer;
+}
+
+.main__account--avatar {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  background-color: #00897b;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.main__account--email {
+  font-size: 12px;
+  color: #4c4a4a;
+}
+
+.main__account--email h2 {
+  font-size: 14px;
+  color: #5c545a;
+}
+
+.main__account--email p {
+  font-size: 12px;
+  color: #4c4a4a;
+}
+
+.main__account--signout {
+  float: right;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.footer {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.footer__left {
+  float: left;
+}
+
+.footer__right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0.5rem;
+  opacity: 0.8;
+}
+
+#footer__left--select {
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+#footer__left--select option {
+  height: 30px;
+}

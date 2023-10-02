@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bowlby+One&family=Cinzel&family=Hubballi&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+/* HEADER STYLE -------------- */
+
+.header {
+  padding: 1rem 1rem 2rem;
+}
+
+.header__left {
+  float: left;
+  margin: 0.5rem;
+}
+
+.header__right {
+  float: right;
+  margin: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0.5rem;
+  opacity: 0.8;
+}
+
+a.image-link:hover {
+  text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+.header__right--appicon {
+  opacity: 0.6;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__right--appicon:hover {
+  opacity: 1;
+}
+
+.header__right--button {
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  height: 35px;
+  width: 100px;
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.header__right--button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 1;
+}
+
+/* ------ MAIN Section ----- */
+
+.main__logo {
+  width: 276px;
+  height: 94px;
+  margin: 25vh auto 0;
+  display: block;
+}
+
+.main__search-bar {
+  height: 50px;
+  width: 580px;
+  border: 1px solid lightgray;
+  border-radius: 22px;
+  margin: 28px auto;
+}
+
+.main__search-bar:hover {
+  box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.3);
+}
+
+.main__search-bar--magnify {
+  margin-left: 15px;
+  margin-top: 15px;
+  opacity: 0.5;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.main__search-bar--input {
+  height: 35px;
+  width: 485px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: gray;
+}
+
+.main__search-bar--mic {
+  width: auto;
+  height: 26px;
+  vertical-align: middle;
+}
+
+.main__buttons {
+  text-align: center;
+}
+
+.main__buttons--left,
+.main__buttons--right {
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  padding: 0 1rem;
+  margin: 11px 4px;
+  background-color: #f8f9fa;
+}
+
+.main__buttons--left:hover,
+.main__buttons--right:hover {
+  border: 1px solid #dadce0;
+  cursor: pointer;
+}
+
+p.main__languages {
+  margin-top: 1rem;
+  font-size: 13px;
+  text-align: center;
+}
+
+.main__languages a {
+  color: #1a0dbe;
+  text-decoration: none;
+}
+
+.main__languages a:hover {
+  text-decoration: underline;
+}
+
+/* --------FOOTER STYLES -----  */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  line-height: 38px;
+  padding: 10px 16px;
+}
+
+.footer ul a {
+  font-size: 14px;
+}
+
+.footer__left {
+  color: #5f6368;
+  float: left;
+}
+
+.footer__right {
+  color: #5f6368;
+  float: right;
+}
